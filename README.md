@@ -3,12 +3,21 @@
 
 **Dxf Parser** is a javascript parser for dxf files. It reads dxf files into one large javascript object with readable properties and a more logical structure.
 
-Also, keep an eye on [three-dxf](https://github.com/gdsestimating/three-dxf), a browser module for rendering the output of Dxf-Parser in the browser.
+#### To build (Important!)
+
+Use Node 16:
+
+```sh
+nvm install 16
+nvm use 16
+npm install
+npm run prod
+```
 
 #### Install
 
 ```sh
-npm install dxf-parser
+npm install <THIS_REPO_URL>
 ```
 
 Browsers -- As of 0.1.3 standalone browserify version is in the commonjs/ folder. Copy it out of the install directory or just download it from the GitHub repo directly. We may evetually publish this to bower, but the build environment needs a little work first.
